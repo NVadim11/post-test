@@ -19,8 +19,7 @@ function SolanaWalletButton() {
         },
         body: JSON.stringify({
           // walletAddress: publicKey?.toBase58(),
-          // walletName: wallet?.name,					
-						id: 6,
+          // walletName: wallet?.name,				
 						avatar: publicKey?.toBase58(),
 						email: "test61312312312123123123129@test.com",
 						first_name: wallet?.name,
@@ -33,8 +32,7 @@ function SolanaWalletButton() {
 						status: 1,
 						created_at: "2024-03-06T13:33:14.000000Z",
 						updated_at: "2024-03-06T13:33:14.000000Z",
-						deleted_at: null
-				
+						deleted_at: null				
         }),
       });
 
