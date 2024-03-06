@@ -8,6 +8,7 @@ import {
 } from "@solana/wallet-adapter-wallets"
 import React, { useMemo } from 'react'
 import './App.css'
+import SolanaWalletButton from './btn'
 
 function App() {
   return (
@@ -42,6 +43,7 @@ const Context = ({children}) => {
 const Content = () => {
   return (
     <div className="App">
+      <SolanaWalletButton />
       <WalletMultiButton />
     </div>
   );
