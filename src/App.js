@@ -14,6 +14,7 @@ import SolanaWalletButton from './btn'
 
 
 function App() {
+  console.log('123');
   return (
     <Context>
       <Content />
